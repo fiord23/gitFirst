@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Work\Programming\IAR\clean\settings\clean.Debug.general.xcl" --backend -f "D:\Work\Programming\IAR\clean\settings\clean.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Work\Programming\IAR\First\gitFirst\settings\clean.Debug.general.xcl" --backend -f "D:\Work\Programming\IAR\First\gitFirst\settings\clean.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Work\Programming\IAR\clean\settings\clean.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Work\Programming\IAR\clean\settings\clean.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Work\Programming\IAR\First\gitFirst\settings\clean.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\Work\Programming\IAR\First\gitFirst\settings\clean.Debug.driver.xcl" 
 
 @echo off 
 :end

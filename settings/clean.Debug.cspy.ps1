@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Work\Programming\IAR\clean\settings\clean.Debug.general.xcl" --backend -f "D:\Work\Programming\IAR\clean\settings\clean.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Work\Programming\IAR\First\gitFirst\settings\clean.Debug.general.xcl" --backend -f "D:\Work\Programming\IAR\First\gitFirst\settings\clean.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Work\Programming\IAR\clean\settings\clean.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Work\Programming\IAR\clean\settings\clean.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Work\Programming\IAR\First\gitFirst\settings\clean.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Work\Programming\IAR\First\gitFirst\settings\clean.Debug.driver.xcl" 
 }
